@@ -1,0 +1,32 @@
+{
+    "namespaces": {
+	"bz": "http://bitzi.com/xmlns/2002/01/bz-core#",
+	"ccouch": "http://ns.nuke24.net/ContentCouch/",
+	"dc": "http://purl.org/dc/elements/1.1/",
+	"dcterms": "http://purl.org/dc/terms/",
+	"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+	"rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "classProperties": {
+	"http://ns.nuke24.net/ContentCouch/Blob": [
+	    "http://bitzi.com/xmlns/2002/01/bz-core#fileSize"
+	],
+	"http://ns.nuke24.net/ContentCouch/Commit": [
+	    "http://ns.nuke24.net/ContentCouch/target",
+	    "http://ns.nuke24.net/ContentCouch/parent",
+	    "http://purl.org/dc/terms/created",
+	    "http://purl.org/dc/terms/creator",
+	    "http://purl.org/dc/terms/description"
+	],
+	"http://ns.nuke24.net/ContentCouch/Directory": [
+	    "http://ns.nuke24.net/ContentCouch/entries"
+	],
+	"http://ns.nuke24.net/ContentCouch/DirectoryEntry": [
+	    "http://ns.nuke24.net/ContentCouch/name",
+	    "http://ns.nuke24.net/ContentCouch/size",
+	    "http://ns.nuke24.net/ContentCouch/target",
+	    "http://ns.nuke24.net/ContentCouch/targetType",
+	    "http://purl.org/dc/terms/modified"
+	]
+    }
+}
